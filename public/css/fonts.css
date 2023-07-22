@@ -1,0 +1,24 @@
+@font-face {
+    font-family: Helveticacyr roman; /* Гарнитура шрифта */
+    src: url(../fonts/helveticaneuecyr_roman.otf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: Helveticacyr medium; /* Гарнитура шрифта */
+    src: url(../fonts/helveticaneuecyr-medium1.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: Helveticacyr heavy; /* Гарнитура шрифта */
+    src: url(../fonts/helveticaneuecyr-heavy.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: Helveticacyr bold; /* Гарнитура шрифта */
+    src: url(../fonts/helveticaneuecyr-bold.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: Helveticacyr black; /* Гарнитура шрифта */
+    src: url(../fonts/helveticaneuecyr-black.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: Montserrat; /* Гарнитура шрифта */
+    src: url(../fonts/Montserrat-Bold.ttf); /* Путь к файлу со шрифтом */
+}
