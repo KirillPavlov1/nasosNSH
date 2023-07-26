@@ -3,6 +3,7 @@
 use App\Http\Controllers\EmailController;
 use App\Http\Controllers\Frontend;
 use App\Http\Controllers\CompanyController;
+use App\Http\Controllers\guarantee;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\ProfileController;
 
@@ -21,6 +22,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [Frontend::class, 'index'])->name('main');
 Route::get('/company', [CompanyController::class, 'index'])->name('company');
+Route::get('/guarantee', [guarantee::class, 'index'])->name('guarantee');
 Route::get('/product', [ProductController::class, 'index'])->name('product');
 Route::get('/{name}', [ProductController::class, 'index'])->name('product');
 Route::post('mail/recall',[EmailController::class, 'sendMailRecall'])->name('send-mail-recall');

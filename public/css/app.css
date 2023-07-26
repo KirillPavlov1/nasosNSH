@@ -1132,3 +1132,48 @@ textarea[name=text]{
         margin-top: 30px;
     }
 }
+.partGuaranteeName{
+    font-size: 3vw;
+    font-family: Helveticacyr black;
+    padding-top: 15vh;
+}
+.textGuarantee{
+    font-family: Helveticacyr roman;
+    font-size: 1.5vw;
+    line-height: 1.5;
+}
+.partInstallationName{
+    font-size: 3vw;
+    font-family: Helveticacyr black;
+    color: black;
+}
+.textInstallation{
+    font-family: Helveticacyr roman;
+    font-size: 1.5vw;
+    line-height: 1.5;
+}
+@media all and (max-width: 1015px){
+    .partGuaranteeName{
+        font-size: 6vw;
+        padding-top: 25vw;
+    }
+    .textGuarantee{
+        font-size: 3vw;
+    }
+    .partInstallationName{
+        font-size: 6vw;
+    }
+    .textInstallation{
+        font-size: 3vw;
+    }
+}
+@media all and (max-width: 500px){
+    .partGuaranteeName{
+        padding-top: 55vw;
+    }
+}
+@media all and (max-width: 350px){
+    .partGuaranteeName{
+        padding-top: 85vw;
+    }
+}
