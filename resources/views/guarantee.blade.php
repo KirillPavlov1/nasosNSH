@@ -20,6 +20,7 @@
                 подвергался разборке, претензии по качеству не принимаются.
             </p>
         </section>
+        <embed src="/certificat.pdf" type="application/pdf" width="100%" height="1000px">
         <h3 class="partInstallationName">Монтаж и эксплуатация</h1>
         <section class="partInstallation">
             <p class="textInstallation">
