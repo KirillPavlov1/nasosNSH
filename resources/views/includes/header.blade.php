@@ -3,7 +3,7 @@
         <div class="header__wrapper">
             <div class="logo__name">
                 <div class="logo">
-                    <img class="borders__logo" src="images/logo.svg">
+                    <img class="borders__logo" src="/images/logo.svg">
                 </div>
                 <div class="name">
                     <h1>МЛМЗ</h1>

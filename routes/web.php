@@ -23,8 +23,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', [Frontend::class, 'index'])->name('main');
 Route::get('/company', [CompanyController::class, 'index'])->name('company');
 Route::get('/guarantee', [guarantee::class, 'index'])->name('guarantee');
-Route::get('/product', [ProductController::class, 'index'])->name('product');
-Route::get('/{name}', [ProductController::class, 'index'])->name('product');
+Route::get('/catalog/{name}', [ProductController::class, 'index'])->name('product');
 Route::post('mail/recall',[EmailController::class, 'sendMailRecall'])->name('send-mail-recall');
 
 
