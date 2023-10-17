@@ -1088,6 +1088,12 @@ input[name=name]{
     width: 47%;
     height: 35px;
 }
+input[name=email]{
+    background-color: #D5E1FD;
+    border-radius: 5px;
+    width: 47%;
+    height: 35px;
+}
 input[name=phone]{
     background-color: #D5E1FD;
     border-radius: 5px;

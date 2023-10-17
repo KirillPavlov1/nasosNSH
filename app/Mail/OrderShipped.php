@@ -15,16 +15,18 @@ class OrderShipped extends Mailable
 
     public $name;
     public $phone;
+    public $email;
     public $text;
     /**
      * Create a new message instance.
      * 
      * @return void
      */
-    public function __construct($name, $phone, $text)
+    public function __construct($name, $phone, $email, $text)
     {
         $this->name = $name;
         $this->phone = $phone;
+        $this->email = $email;
         $this->text = $text;
     }
 
@@ -39,6 +41,7 @@ class OrderShipped extends Mailable
             ->view('email.recall', [
                 'name' => $this->name,
                 'phone' => $this->phone,
+                'email' => $this->email,
                 'text' => $this->text
             ]);
     }

@@ -94,3 +94,14 @@ function  switchImage(block, i){
   newImage.style.opacity = 1;
   blockImage.src = "../images/" + name + "_" + x + ".png";
 }
+
+function capch(e) {
+  e.preventDefault();
+  grecaptcha.enterprise.ready(async () => {
+    const token = await grecaptcha.enterprise.execute('6Lf3dqooAAAAAKOmoAUEr9Bx_groA43ZEi4NDioB', {action: 'LOGIN'});
+    // IMPORTANT: The 'token' that results from execute is an encrypted response sent by
+    // reCAPTCHA Enterprise to the end user's browser.
+    // This token must be validated by creating an assessment.
+    // See https://cloud.google.com/recaptcha-enterprise/docs/create-assessment
+  });
+}

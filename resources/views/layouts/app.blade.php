@@ -9,7 +9,8 @@
         <title>@yield('title-page')</title>
         <meta name="description" content="@yield('description')">
         <script src="../js/myScripts.js"></script>
-        <link rel="icon" type="image/png" sizes="16x32" href="/images/favicon.png">
+        <script src="https://www.google.com/recaptcha/enterprise.js?render=6Lf3dqooAAAAAKOmoAUEr9Bx_groA43ZEi4NDioB"></script>
+        <link rel="icon" href="https://nasos-nsh.ru/favicon.ico" type="image/x-icon">
                 <!-- Yandex.Metrika counter -->
         <script type="text/javascript" >
         (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};

@@ -19,7 +19,7 @@ class EmailController extends Controller
         }else{
             $text = $request->text;
         }
-        Mail::to('alkornch16@gmail.com')->send(new OrderShipped($name, $request->phone, $text));
+        Mail::to('alkornch16@gmail.com')->send(new OrderShipped($name, $request->phone, $request->email, $text));
         return redirect()->route('main');
     }
 }
