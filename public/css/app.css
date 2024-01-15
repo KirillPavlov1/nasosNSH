@@ -124,15 +124,27 @@ h2{
         flex-direction: column
     }
 }
+.emailHeader{
+    font-family: Helveticacyr roman;
+    font-size: 14px;
+    color: #DCDCDC;
+    text-decoration: none;
+    margin: auto 0;
+    margin-right: 30px;
+    text-decoration: underline;
+}
 .header__buttons1{
     font-family: Helveticacyr roman;
-    font-size: 22px;
+    font-size: 18px;
     color: #DCDCDC;
     text-decoration: none;
     margin: auto 0;
     margin-right: 30px;
     
     /* display: flex; */
+}
+.header__buttons1:hover{
+    text-decoration: underline;
 }
 .header__buttons2{
     color: #DCDCDC;
@@ -574,6 +586,14 @@ footer{
     margin-top: 5px;
     margin-bottom: 5px;
 }
+.priceProduct{
+    color: #434343;
+    font-size: 13px;
+    margin:0;
+    font-family: Helveticacyr medium;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
 .descProduct{
     color: #626262;
     font-size: 14px;
@@ -872,6 +892,13 @@ footer{
 .useProductProduct{
     font-family: Helveticacyr medium;
     font-size: 24px;
+    color: #434343;
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+.priceProductProduct{
+    font-family: Helveticacyr medium;
+    font-size: 18px;
     color: #434343;
     margin-top: 24px;
     margin-bottom: 12px;

@@ -11,6 +11,7 @@
                 </div>
             </div>
             <div class="header__buttons">
+                <p class="emailHeader">mgn-litz@mail.ru</p>
                 <a href="{{route('main')}}" class="header__buttons1">Главная</a>
                 <a href="{{route('company')}}" class="header__buttons1">О компании</a>
                 <a href="{{route('guarantee')}}" class="header__buttons1">Покупателю</a>

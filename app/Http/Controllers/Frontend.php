@@ -5,7 +5,12 @@ use App\Models\pump;
 
 
 class Frontend extends Controller
+
 {
+    public function notRobot(){
+        return view('notRobot');
+    }
+
     public function index(){
         $pumps = pump::all();
         foreach ($pumps as $pump){

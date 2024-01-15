@@ -9,7 +9,6 @@
         <title>@yield('title-page')</title>
         <meta name="description" content="@yield('description')">
         <script src="../js/myScripts.js"></script>
-        <script src="https://www.google.com/recaptcha/enterprise.js?render=6Lf3dqooAAAAAKOmoAUEr9Bx_groA43ZEi4NDioB"></script>
         <link rel="icon" href="https://nasos-nsh.ru/favicon.ico" type="image/x-icon">
                 <!-- Yandex.Metrika counter -->
         <script type="text/javascript" >
@@ -27,6 +26,9 @@
         </script>
         <noscript><div><img src="https://mc.yandex.ru/watch/94445929" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
         <!-- /Yandex.Metrika counter -->
+        {{-- {!! htmlScriptTagJsApi(["lang" => "ru"]) !!} --}}
+        {!! htmlScriptTagJsApi() !!}
+    </head>
     <body>
         @include('includes.header')
         @include('layouts.applic')

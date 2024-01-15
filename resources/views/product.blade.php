@@ -25,6 +25,9 @@
                             <p class="useProductProduct">
                                 Применение
                             </p>
+                            <p class="priceProductProduct">
+                                Цена: {{$pump->price}} руб. /шт
+                            </p>
                             <p class="descProductProduct">
                                 {{$pump->use}}
                             </p>
