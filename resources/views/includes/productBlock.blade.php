@@ -40,7 +40,7 @@
         <div class="secondField">
             <div class="charactName">
                 <p class="characteristic">
-                    Харакетеристика
+                    Характеристика
                 </p>
                 <img src="images/line.svg">
             </div>

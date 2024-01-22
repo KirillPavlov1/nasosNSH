@@ -1,5 +1,5 @@
 <header>
-    <div class="container">
+    {{-- <div class="container"> --}}
         <div class="header__wrapper">
             <div class="logo__name">
                 <div class="logo">
@@ -18,5 +18,5 @@
                 <div class="header__buttons2" onclick="openForm()">Связаться с нами</div>
             </div>
         </div>
-    </div>
+    {{-- </div> --}}
 </header>
