@@ -12,7 +12,7 @@ class Frontend extends Controller
     }
 
     public function index(){
-        $pumps = pump::all();
+        $pumps = pump::all()->sortBy('temp');
         foreach ($pumps as $pump){
             $pump->translation = Translate::translit_path_en($pump->name);
             $pump->save();

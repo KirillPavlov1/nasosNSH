@@ -54,7 +54,7 @@ header{
     width: 90%;
 }
 
-@media all and (max-width: 1030px){
+@media all and (max-width: 1580px){
     .header__wrapper{
         justify-content: center;
     }
@@ -63,7 +63,7 @@ header{
     display: flex;
 }
 
-@media all and (max-width: 530px){
+@media all and (max-width: 720px){
     .header__wrapper{
         flex-direction: column;
     }
@@ -85,7 +85,7 @@ header{
     margin: auto;
     flex-wrap: wrap;
 }
-@media all and (max-width: 530px){
+@media all and (max-width: 720px){
     .logo{
         margin: auto;
     }
@@ -117,7 +117,7 @@ h2{
     margin: auto 0;
     display: flex;
 }
-@media all and (max-width: 530px){
+@media all and (max-width: 720px){
     .header__buttons{
         justify-content: center;
         flex-direction: column
@@ -131,6 +131,7 @@ h2{
     margin: auto 0;
     margin-right: 30px;
     text-decoration: underline;
+    text-align: center;
 }
 .header__buttons1{
     font-family: Helveticacyr roman;
@@ -139,7 +140,7 @@ h2{
     text-decoration: none;
     margin: auto 0;
     margin-right: 30px;
-    
+    text-align: center;
     /* display: flex; */
 }
 .header__buttons1:hover{
@@ -442,7 +443,7 @@ footer{
     background:#232323;
     /* height: 104px; */
 }
-@media all and (min-width: 660px){
+@media all and (min-width: 760px){
     .footer__wrapper{
         /* display: flex;
         justify-content: space-between;
@@ -454,7 +455,7 @@ footer{
         min-height: 90px;
     }
 }
-@media all and (max-width: 660px){
+@media all and (max-width: 760px){
     .footer__wrapper{
         /* display: flex;
         justify-content: space-between;
@@ -466,6 +467,18 @@ footer{
         margin: auto 0;
         min-height: 90px;
     }
+}
+.footer__logo{
+    margin: auto;
+    margin-left: 0;
+}
+@media all and (max-width: 760px){
+    .footer__logo{
+        margin-left: auto;
+    }
+}
+.footer__header__buttons{
+    justify-content: center;
 }
 .product__wrapper{
     /* position: absolute; */
@@ -744,10 +757,16 @@ footer{
     display: flex;
     margin-top: 100px;
 }
-@media all and (max-width: 530px){
+@media all and (max-width: 720px){
     .aboutCompany{
         display: flex;
         margin-top: 220px;
+    }
+}
+@media all and (max-width: 530px){
+    .aboutCompany{
+        display: flex;
+        margin-top: 350px;
     }
 }
 .h3Company{
@@ -1217,6 +1236,9 @@ textarea[name=text]{
     font-size: 1.5vw;
     line-height: 1.5;
 }
+.textBuyer{
+    margin-bottom: 500px;
+}
 .partInstallationName{
     font-size: 3vw;
     font-family: Helveticacyr black;
@@ -1242,13 +1264,18 @@ textarea[name=text]{
         font-size: 3vw;
     }
 }
-@media all and (max-width: 500px){
+@media all and (max-width: 720px){
     .partGuaranteeName{
         padding-top: 55vw;
     }
 }
-@media all and (max-width: 350px){
+@media all and (max-width: 500px){
     .partGuaranteeName{
         padding-top: 85vw;
+    }
+}
+@media all and (max-width: 350px){
+    .partGuaranteeName{
+        padding-top: 140vw;
     }
 }
