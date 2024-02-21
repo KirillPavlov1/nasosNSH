@@ -338,6 +338,16 @@ h4{
     display: block;
     /* padding-top: 90px; */
 }
+@media all and (max-width: 720px){
+    .img__slider{
+        width: 90%;
+        height: auto;
+        margin: auto;
+        display: block;
+        padding-top: 200px;
+    }
+}
+
 @media all and (min-width: 1530px){
     .img__pumps{
         width: 45%;
@@ -404,6 +414,12 @@ h4{
         width: 90%;
         margin: 0 auto ;
         margin-bottom: 10px;
+    }
+}
+
+@media all and (max-width: 720px){
+    .section__banner{
+        padding-top: 200px;
     }
 }
 .swiper{
@@ -877,10 +893,12 @@ footer{
     height: 721px;
     background: #E6E9F2;
     border-radius: 7px;
+    
 }
 @media all and (max-width: 1000px){
     .productBox{
         height: auto;
+        padding-top: 120px;
     }
 }
 .containerBlockProduct{
@@ -906,7 +924,6 @@ footer{
 .productImageProduct{
     background-color: #FFFFFF;
     border-radius: 10px;
-    
     height: 400px;
     width: 400px;
 }
