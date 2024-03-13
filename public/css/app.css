@@ -54,7 +54,7 @@ header{
     width: 90%;
 }
 
-@media all and (max-width: 1580px){
+@media all and (max-width: 1677px){
     .header__wrapper{
         justify-content: center;
     }
@@ -429,6 +429,56 @@ h4{
 .videoMain{
     margin: 0 auto;
     padding-top: 30px;
+}
+.imgText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgTextIMG{
+    width: 50%;
+}
+.imgTextTEXT1{
+    width: 50%;
+    font-size: 22px;
+    font-family: Helveticacyr bold;
+    text-align:left;
+    height: 20%;
+    vertical-align: middle;
+}
+.imgTextTEXT2{
+    width: 50%;
+    font-size: 22px;
+    font-family: Helveticacyr bold;
+    text-align:right;
+    height: 20%;
+    vertical-align: middle;
+}
+@media all and (max-width: 700px){
+    .imgText{
+        display: block;
+    }
+    .imgTextIMG{
+        width: 90%;
+        margin: auto;
+        display: block;
+    }
+    .imgTextTEXT1{
+        width: 90%;
+        font-size: 22px;
+        font-family: Helveticacyr bold;
+        text-align:center;
+        height: 20%;
+        margin: auto;
+    }
+    .imgTextTEXT2{
+        width: 90%;
+        font-size: 22px;
+        font-family: Helveticacyr bold;
+        text-align:center;
+        height: 20%;
+        margin: auto;
+    }
 }
 .listProducts{
     position: relative;

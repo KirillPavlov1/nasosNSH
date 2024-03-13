@@ -78,12 +78,37 @@
             </div>
         </div>
     </section>
-    <section id="listProducts">
+    <section id="imagesWithText">
         <div class="container">
-            <div class="product__wrapper">
-                @foreach($pumps as $pump)   
-                    @include('includes.productBlock')
-                @endforeach
+            <div class="imgText">
+                <p class="imgTextTEXT1">
+                    Глубокий взгляд внутрь нашего насоса — идеальное сочетание инженерного мастерства и надежности
+                </p>
+                <img src="images/nsh-01.svg" class="imgTextIMG">
+            </div>
+            <div class="imgText">
+                <img src="images/nsh-02.svg" class="imgTextIMG">
+                <p class="imgTextTEXT2">
+                    Технология, обеспечивающая бесперебойную подачу масла для надежной работы наших насосов
+                </p>
+            </div>
+            <div class="imgText">
+                <p class="imgTextTEXT1">
+                    Гарантия эффективной работы вашей техники
+                </p>
+                <img src="images/nsh-03.svg" class="imgTextIMG">
+            </div>
+            <div class="imgText">
+                <img src="images/nsh-04.svg" class="imgTextIMG">
+                <p class="imgTextTEXT2">
+                    Мощность, надежность, эффективность – наши насосы соответствуют самым высоким стандартам качества
+                </p>
+            </div>
+            <div class="imgText">
+                <p class="imgTextTEXT1">
+                    Наши насосы проходят строгие испытания на специальном оборудовании – гарантия безопасности и долговечности вашего оборудования
+                </p>
+                <img src="images/nsh-06.svg" class="imgTextIMG">
             </div>
         </div>
     </section>

@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\CatalogController;
 use App\Http\Controllers\EmailController;
 use App\Http\Controllers\Frontend;
 use App\Http\Controllers\CompanyController;
@@ -29,6 +30,7 @@ Route::get('/buyer', function () {
 Route::get('/catalog/{name}', [ProductController::class, 'index'])->name('product');
 Route::post('mail/recall',[EmailController::class, 'sendMailRecall'])->name('send-mail-recall');
 Route::get('/robot', [Frontend::class, 'notRobot'])->name('notRobot');
+Route::get('/catalog', [CatalogController::class, 'index'])->name('catalog');
 
 
 Route::get('/dashboard', function () {
